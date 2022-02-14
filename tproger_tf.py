@@ -7,3 +7,8 @@ model = tf.keras.models.Sequential([
   tf.keras.layers.Dense(10, name='hidden_layer_2')
 ])
 model.summary()
+
+
+model.add(tf.keras.layers.Dense(5, activation='relu', name='hidden_layer_3'))
+model.add(tf.keras.layers.Dense(2, name='output'))
+model.summary()
