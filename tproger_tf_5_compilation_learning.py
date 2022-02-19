@@ -19,6 +19,9 @@ model.compile(
     metrics=['mean_absolute_error']
 )
 
+# Expected output
+# print(Y)
+
 # Обучим
 model.fit(
     X, # Набор входных данных

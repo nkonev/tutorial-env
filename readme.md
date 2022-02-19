@@ -9,4 +9,7 @@ python tproger_tf_4_compilation.py
 # yum install graphviz
 
 eog model.png
+
+# Можно посмотреть и как модель обучалась (после запуска 6)
+tensorboard --logdir "log"
 ```
