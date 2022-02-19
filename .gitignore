@@ -1,4 +1,4 @@
-/bin
+/bin/*
 !/bin/activate
 !/bin/activate.csh
 !/bin/activate.fish
